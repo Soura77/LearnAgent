@@ -1,0 +1,17 @@
+markdownify
+requests
+duckduckgo_search
+pandas==2.2.3
+ipykernel
+ipywidgets
+langchain
+langchain-community
+langchain-ollama
+langgraph
+langfuse
+google-search-results
+rank_bm25
+plotly
+geopandas
+# shapely
+# kaleido
