@@ -4,6 +4,7 @@ from langfuse.langchain import CallbackHandler
 
 my_config = MyConfig()
 
+
 def setup_langfuse_tracer():
     os.environ["LANGFUSE_PUBLIC_KEY"] = my_config.LANGFUSE_PUBLIC_KEY
     os.environ["LANGFUSE_SECRET_KEY"] = my_config.LANGFUSE_SECRET_KEY
